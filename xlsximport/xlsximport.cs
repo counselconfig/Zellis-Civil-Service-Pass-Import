@@ -1,0 +1,141 @@
+﻿/*dominic.love@nationalarchives.gov.uk
+ RFC 18737*/
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+//added below name spaces
+using System.IO;
+using System.Data;
+using System.Data.OleDb;
+using System.Data.SqlClient;
+
+namespace xlsximport.optimum
+{
+    class xlsximport
+    {
+        static void Main(string[] args)
+        {
+            //System.IO.File.Move(@"D:\Temp\*.log", @"D:\Temp\foo.log"); https://stackoverflow.com/questions/3218910/rename-a-file-in-c-sharp
+            Console.Write("CARDS IMPORT\n\nPress any key to import cards data\n\n");
+            Console.ReadKey(true);
+            Console.Write("Loading data...\n");
+            //the datetime and Log folder will be used for error log file in case error occured
+            string datetime = DateTime.Now.ToString("yyyyMMddHHmmss");
+            string LogFolder = @".\";
+            try
+            {
+
+                //Provide the Database Name 
+                string DatabaseName = "Cards";
+                //Provide the SQL Server Name 
+                string SQLServerName = @"na-t-sqlc02v01\sql1";
+                //Provide the table name in which you want to load excel sheet's data
+                String TableName = @"Badge_old";
+                //Provide the schema of table
+                String SchemaName = @"dbo";
+                //Provide Excel file path
+                //string fileFullPath = @"D:\Temp\data.xlsx";
+                string fileFullPath = Directory.GetFiles(@".\", "*.xlsx").FirstOrDefault(); // https://stackoverflow.com/questions/6672678/how-can-i-get-a-single-file-name-by-searching-for-the-extension-alone
+                //Provide Sheet Name you like to read
+                //string SheetName = "Sheet1";
+
+
+                //Create Connection to SQL Server Database 
+                SqlConnection SQLConnection = new SqlConnection();
+                SQLConnection.ConnectionString = "Data Source = "
+                    + SQLServerName + "; Initial Catalog ="
+                    + DatabaseName + "; "
+                    + "Integrated Security=true;";
+
+
+                //Create Excel Connection
+                string ConStr;
+                string HDR;
+                HDR = "YES";
+                ConStr = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source="
+                    + fileFullPath + ";Extended Properties=\"Excel 12.0;HDR=" + HDR + ";IMEX=0\"";
+                OleDbConnection cnn = new OleDbConnection(ConStr);
+
+
+                //Get data from Excel Sheet to DataTable
+                OleDbConnection Conn = new OleDbConnection(ConStr);
+                
+                    Conn.Open();
+                var sheetNames = Conn.GetSchema("Tables");
+                DataTable dt = new DataTable(); //https://stackoverflow.com/questions/29626812/c-sharp-importing-excel-file-without-knowing-the-sheet-name
+                foreach (DataRow row in sheetNames.Rows)
+                {
+                    var name = row["TABLE_NAME"];
+                    OleDbCommand oconn = new OleDbCommand("SELECT [Emp# No], [Employee's first name#], [Employee's surname#], [Badge Expiry], Fullname FROM [" + name + "A4:ZZ]", Conn); //https://social.msdn.microsoft.com/Forums/sqlserver/en-US/560ab77b-c7e9-475e-8462-f5d801696c2f/permanent-fixpatch-for-invalid-bracketing-of-name-ltcolumnname-with-dotgt-issue-in-excel?forum=sqlintegrationservices https://social.msdn.microsoft.com/Forums/sqlserver/en-US/065897dc-10ad-4333-9214-b8e74733b50f/read-data-from-excel-with-specific-row?forum=vbgeneral
+                    OleDbDataAdapter adp = new OleDbDataAdapter(oconn);
+                    
+                    adp.Fill(dt);
+                    Conn.Close();
+
+                }
+
+
+
+
+
+                SQLConnection.Open();
+                //Load Data from DataTable to SQL Server Table.
+                using (SqlBulkCopy BC = new SqlBulkCopy(SQLConnection))
+                {
+                    SqlCommand truncate = new SqlCommand("TRUNCATE TABLE dbo.Badge_old", SQLConnection);
+                    truncate.ExecuteNonQuery();
+                    BC.DestinationTableName = SchemaName + "." + TableName;
+                    foreach (var column in dt.Columns)
+                        BC.ColumnMappings.Add(column.ToString(), column.ToString());
+                    BC.WriteToServer(dt);
+                }
+                //SQLConnection.Close();
+
+               //using (SqlConnection dbConnection = new SqlConnection(@"Data Source=na-t-sqlc02v01\sql1,4334;Initial Catalog=cards;Integrated Security=True;"))
+                {
+                    int dtrowcount = dt.Rows.Count;
+                    //dbConnection.Open();
+                    SqlCommand selectcount = new SqlCommand("SELECT COUNT(*) FROM dbo.Badge_old", SQLConnection);
+                    Int32 count = (Int32) selectcount.ExecuteScalar();
+                    if (dtrowcount == count)
+                    {
+                        SqlCommand rowmatch1 = new SqlCommand("INSERT INTO dbo.BadgeLog (RowsCheck) VALUES('1')", SQLConnection);
+                        rowmatch1.ExecuteNonQuery();
+                    }
+                    else
+                    {
+                        SqlCommand rowmatch0 = new SqlCommand("INSERT INTO dbo.BadgeLog (RowsCheck) VALUES('0')", SQLConnection);
+                        rowmatch0.ExecuteNonQuery();
+                    }
+
+                }
+                SQLConnection.Close();
+                Console.WriteLine("\nCards data has been imported press any key to exit"); //https://www.geeksforgeeks.org/console-readkey-method-in-c-sharp/
+
+                // basic use of "Console.ReadKey()" method
+                Console.ReadKey();
+            }
+
+
+
+
+            catch (Exception exception)
+            {
+                // Create Log File for Errors
+                using (StreamWriter sw = File.CreateText(LogFolder
+                    + "\\" + "ErrorLog_" + datetime + ".log"))
+                {
+                    sw.WriteLine(exception.ToString());
+                    Console.WriteLine("\nError occured please raise a ticket.\n\nPress any key to exit");
+                    Console.ReadKey();
+                }
+
+            }
+
+        }
+    }
+}
+
+//http://www.techbrothersit.com/2016/04/c-how-to-import-excel-sheet-to-sql.html

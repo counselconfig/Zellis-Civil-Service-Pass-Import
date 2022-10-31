@@ -1,0 +1,110 @@
+C:\Users\a-dlove\Source\Repos\xlsximport\xlsximport\bin\Debug\xlsximport.exe.config
+C:\Users\a-dlove\Source\Repos\xlsximport\xlsximport\bin\Debug\xlsximport.exe
+C:\Users\a-dlove\Source\Repos\xlsximport\xlsximport\bin\Debug\xlsximport.pdb
+C:\Users\a-dlove\Source\Repos\xlsximport\xlsximport\bin\Debug\System.Data.OleDb.dll
+C:\Users\a-dlove\Source\Repos\xlsximport\xlsximport\bin\Debug\System.Data.OleDb.xml
+C:\Users\a-dlove\Source\Repos\xlsximport\xlsximport\obj\Debug\xlsximport.csprojAssemblyReference.cache
+C:\Users\a-dlove\Source\Repos\xlsximport\xlsximport\obj\Debug\xlsximport.csproj.CoreCompileInputs.cache
+C:\Users\a-dlove\Source\Repos\xlsximport\xlsximport\obj\Debug\xlsximport.csproj.CopyComplete
+C:\Users\a-dlove\Source\Repos\xlsximport\xlsximport\obj\Debug\xlsximport.exe
+C:\Users\a-dlove\Source\Repos\xlsximport\xlsximport\obj\Debug\xlsximport.pdb
+C:\Users\a-dlove\Source\Repos\xlsximport_v2\xlsximport\bin\Debug\xlsximport.exe.config
+C:\Users\a-dlove\Source\Repos\xlsximport_v2\xlsximport\bin\Debug\xlsximport.exe
+C:\Users\a-dlove\Source\Repos\xlsximport_v2\xlsximport\bin\Debug\xlsximport.pdb
+C:\Users\a-dlove\Source\Repos\xlsximport_v2\xlsximport\bin\Debug\System.Data.OleDb.dll
+C:\Users\a-dlove\Source\Repos\xlsximport_v2\xlsximport\bin\Debug\System.Data.OleDb.xml
+C:\Users\a-dlove\Source\Repos\xlsximport_v2\xlsximport\obj\Debug\xlsximport.csprojAssemblyReference.cache
+C:\Users\a-dlove\Source\Repos\xlsximport_v2\xlsximport\obj\Debug\xlsximport.csproj.CoreCompileInputs.cache
+C:\Users\a-dlove\Source\Repos\xlsximport_v2\xlsximport\obj\Debug\xlsximport.csproj.CopyComplete
+C:\Users\a-dlove\Source\Repos\xlsximport_v2\xlsximport\obj\Debug\xlsximport.exe
+C:\Users\a-dlove\Source\Repos\xlsximport_v2\xlsximport\obj\Debug\xlsximport.pdb
+C:\Users\a-dlove\Source\Repos\xlsximport_v3\xlsximport\obj\Debug\xlsximport.csprojAssemblyReference.cache
+C:\Users\a-dlove\Source\Repos\xlsximport_v3\xlsximport\obj\Debug\xlsximport.csproj.CoreCompileInputs.cache
+C:\Users\a-dlove\Source\Repos\xlsximport_v3\xlsximport\obj\Debug\xlsximport.exe
+C:\Users\a-dlove\Source\Repos\xlsximport_v3\xlsximport\obj\Debug\xlsximport.pdb
+C:\Users\a-dlove\Source\Repos\xlsximport_v3\xlsximport\bin\Debug\xlsximport.exe.config
+C:\Users\a-dlove\Source\Repos\xlsximport_v3\xlsximport\bin\Debug\xlsximport.exe
+C:\Users\a-dlove\Source\Repos\xlsximport_v3\xlsximport\bin\Debug\xlsximport.pdb
+C:\Users\a-dlove\Source\Repos\xlsximport_v3\xlsximport\bin\Debug\System.Data.OleDb.dll
+C:\Users\a-dlove\Source\Repos\xlsximport_v3\xlsximport\bin\Debug\System.Data.OleDb.xml
+C:\Users\a-dlove\Source\Repos\xlsximport_v3\xlsximport\obj\Debug\xlsximport.csproj.CopyComplete
+C:\Users\a-dlove\Source\Repos\xlsximport_v4\xlsximport\bin\Debug\xlsximport.exe.config
+C:\Users\a-dlove\Source\Repos\xlsximport_v4\xlsximport\bin\Debug\xlsximport.exe
+C:\Users\a-dlove\Source\Repos\xlsximport_v4\xlsximport\bin\Debug\xlsximport.pdb
+C:\Users\a-dlove\Source\Repos\xlsximport_v4\xlsximport\bin\Debug\System.Data.OleDb.dll
+C:\Users\a-dlove\Source\Repos\xlsximport_v4\xlsximport\bin\Debug\System.Data.OleDb.xml
+C:\Users\a-dlove\Source\Repos\xlsximport_v4\xlsximport\obj\Debug\xlsximport.csprojAssemblyReference.cache
+C:\Users\a-dlove\Source\Repos\xlsximport_v4\xlsximport\obj\Debug\xlsximport.csproj.CoreCompileInputs.cache
+C:\Users\a-dlove\Source\Repos\xlsximport_v4\xlsximport\obj\Debug\xlsximport.csproj.CopyComplete
+C:\Users\a-dlove\Source\Repos\xlsximport_v4\xlsximport\obj\Debug\xlsximport.exe
+C:\Users\a-dlove\Source\Repos\xlsximport_v4\xlsximport\obj\Debug\xlsximport.pdb
+C:\Users\a-dlove\Source\Repos\xlsximport_v4v2\xlsximport\bin\Debug\xlsximport.exe.config
+C:\Users\a-dlove\Source\Repos\xlsximport_v4v2\xlsximport\bin\Debug\xlsximport.exe
+C:\Users\a-dlove\Source\Repos\xlsximport_v4v2\xlsximport\bin\Debug\xlsximport.pdb
+C:\Users\a-dlove\Source\Repos\xlsximport_v4v2\xlsximport\bin\Debug\System.Data.OleDb.dll
+C:\Users\a-dlove\Source\Repos\xlsximport_v4v2\xlsximport\bin\Debug\System.Data.OleDb.xml
+C:\Users\a-dlove\Source\Repos\xlsximport_v4v2\xlsximport\obj\Debug\xlsximport.csproj.CoreCompileInputs.cache
+C:\Users\a-dlove\Source\Repos\xlsximport_v4v2\xlsximport\obj\Debug\xlsximport.csproj.CopyComplete
+C:\Users\a-dlove\Source\Repos\xlsximport_v4v2\xlsximport\obj\Debug\xlsximport.exe
+C:\Users\a-dlove\Source\Repos\xlsximport_v4v2\xlsximport\obj\Debug\xlsximport.pdb
+C:\Users\a-dlove\Source\Repos\xlsximport_v4v2\xlsximport\obj\Debug\xlsximport.csproj.AssemblyReference.cache
+C:\Users\a-dlove\Source\Repos\xlsximport_v4v2_test\xlsximport\bin\Debug\xlsximport.exe.config
+C:\Users\a-dlove\Source\Repos\xlsximport_v4v2_test\xlsximport\bin\Debug\xlsximport.exe
+C:\Users\a-dlove\Source\Repos\xlsximport_v4v2_test\xlsximport\bin\Debug\xlsximport.pdb
+C:\Users\a-dlove\Source\Repos\xlsximport_v4v2_test\xlsximport\bin\Debug\System.Data.OleDb.dll
+C:\Users\a-dlove\Source\Repos\xlsximport_v4v2_test\xlsximport\bin\Debug\System.Data.OleDb.xml
+C:\Users\a-dlove\Source\Repos\xlsximport_v4v2_test\xlsximport\obj\Debug\xlsximport.csproj.AssemblyReference.cache
+C:\Users\a-dlove\Source\Repos\xlsximport_v4v2_test\xlsximport\obj\Debug\xlsximport.csproj.CoreCompileInputs.cache
+C:\Users\a-dlove\Source\Repos\xlsximport_v4v2_test\xlsximport\obj\Debug\xlsximport.csproj.CopyComplete
+C:\Users\a-dlove\Source\Repos\xlsximport_v4v2_test\xlsximport\obj\Debug\xlsximport.exe
+C:\Users\a-dlove\Source\Repos\xlsximport_v4v2_test\xlsximport\obj\Debug\xlsximport.pdb
+C:\Users\a-dlove\Source\Repos\xlsximport_v4v2_test2\xlsximport\bin\Debug\xlsximport.exe.config
+C:\Users\a-dlove\Source\Repos\xlsximport_v4v2_test2\xlsximport\bin\Debug\xlsximport.exe
+C:\Users\a-dlove\Source\Repos\xlsximport_v4v2_test2\xlsximport\bin\Debug\xlsximport.pdb
+C:\Users\a-dlove\Source\Repos\xlsximport_v4v2_test2\xlsximport\bin\Debug\System.Data.OleDb.dll
+C:\Users\a-dlove\Source\Repos\xlsximport_v4v2_test2\xlsximport\bin\Debug\System.Data.OleDb.xml
+C:\Users\a-dlove\Source\Repos\xlsximport_v4v2_test2\xlsximport\obj\Debug\xlsximport.csproj.AssemblyReference.cache
+C:\Users\a-dlove\Source\Repos\xlsximport_v4v2_test2\xlsximport\obj\Debug\xlsximport.csproj.CoreCompileInputs.cache
+C:\Users\a-dlove\Source\Repos\xlsximport_v4v2_test2\xlsximport\obj\Debug\xlsximport.csproj.CopyComplete
+C:\Users\a-dlove\Source\Repos\xlsximport_v4v2_test2\xlsximport\obj\Debug\xlsximport.exe
+C:\Users\a-dlove\Source\Repos\xlsximport_v4v2_test2\xlsximport\obj\Debug\xlsximport.pdb
+C:\Users\a-dlove\Source\Repos\xlsximport_v5\xlsximport\bin\Debug\xlsximport.exe.config
+C:\Users\a-dlove\Source\Repos\xlsximport_v5\xlsximport\bin\Debug\xlsximport.exe
+C:\Users\a-dlove\Source\Repos\xlsximport_v5\xlsximport\bin\Debug\xlsximport.pdb
+C:\Users\a-dlove\Source\Repos\xlsximport_v5\xlsximport\bin\Debug\System.Data.OleDb.dll
+C:\Users\a-dlove\Source\Repos\xlsximport_v5\xlsximport\bin\Debug\System.Data.OleDb.xml
+C:\Users\a-dlove\Source\Repos\xlsximport_v5\xlsximport\obj\Debug\xlsximport.csproj.AssemblyReference.cache
+C:\Users\a-dlove\Source\Repos\xlsximport_v5\xlsximport\obj\Debug\xlsximport.csproj.CoreCompileInputs.cache
+C:\Users\a-dlove\Source\Repos\xlsximport_v5\xlsximport\obj\Debug\xlsximport.csproj.CopyComplete
+C:\Users\a-dlove\Source\Repos\xlsximport_v5\xlsximport\obj\Debug\xlsximport.exe
+C:\Users\a-dlove\Source\Repos\xlsximport_v5\xlsximport\obj\Debug\xlsximport.pdb
+Y:\xlsximport\xlsximport\bin\Debug\xlsximport.exe.config
+Y:\xlsximport\xlsximport\bin\Debug\xlsximport.exe
+Y:\xlsximport\xlsximport\bin\Debug\xlsximport.pdb
+Y:\xlsximport\xlsximport\bin\Debug\System.Data.OleDb.dll
+Y:\xlsximport\xlsximport\bin\Debug\System.Data.OleDb.xml
+Y:\xlsximport\xlsximport\obj\Debug\xlsximport.csproj.AssemblyReference.cache
+Y:\xlsximport\xlsximport\obj\Debug\xlsximport.csproj.CoreCompileInputs.cache
+Y:\xlsximport\xlsximport\obj\Debug\xlsximport.csproj.CopyComplete
+Y:\xlsximport\xlsximport\obj\Debug\xlsximport.exe
+Y:\xlsximport\xlsximport\obj\Debug\xlsximport.pdb
+Y:\Cards Data Import\xlsximport\bin\Debug\xlsximport.exe.config
+Y:\Cards Data Import\xlsximport\bin\Debug\xlsximport.exe
+Y:\Cards Data Import\xlsximport\bin\Debug\xlsximport.pdb
+Y:\Cards Data Import\xlsximport\bin\Debug\System.Data.OleDb.dll
+Y:\Cards Data Import\xlsximport\bin\Debug\System.Data.OleDb.xml
+Y:\Cards Data Import\xlsximport\obj\Debug\xlsximport.csproj.AssemblyReference.cache
+Y:\Cards Data Import\xlsximport\obj\Debug\xlsximport.csproj.CoreCompileInputs.cache
+Y:\Cards Data Import\xlsximport\obj\Debug\xlsximport.csproj.CopyComplete
+Y:\Cards Data Import\xlsximport\obj\Debug\xlsximport.exe
+Y:\Cards Data Import\xlsximport\obj\Debug\xlsximport.pdb
+Y:\Cards Data Import\CDI\xlsximport\bin\Debug\xlsximport.exe.config
+Y:\Cards Data Import\CDI\xlsximport\bin\Debug\xlsximport.exe
+Y:\Cards Data Import\CDI\xlsximport\bin\Debug\xlsximport.pdb
+Y:\Cards Data Import\CDI\xlsximport\bin\Debug\System.Data.OleDb.dll
+Y:\Cards Data Import\CDI\xlsximport\bin\Debug\System.Data.OleDb.xml
+Y:\Cards Data Import\CDI\xlsximport\obj\Debug\xlsximport.csproj.AssemblyReference.cache
+Y:\Cards Data Import\CDI\xlsximport\obj\Debug\xlsximport.csproj.CoreCompileInputs.cache
+Y:\Cards Data Import\CDI\xlsximport\obj\Debug\xlsximport.csproj.CopyComplete
+Y:\Cards Data Import\CDI\xlsximport\obj\Debug\xlsximport.exe
+Y:\Cards Data Import\CDI\xlsximport\obj\Debug\xlsximport.pdb
